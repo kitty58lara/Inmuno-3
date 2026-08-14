@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto - Quiénes somos</title>
+    <title>Proyecto - </title>¡Sé parte del cambio!
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@95.7,300..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@95.7,300..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div id="contenedor" class="container-fluid">
     <nav class="navbar navbar-expand-md" style="background-color: #91b891;" data-bs-theme="light">
@@ -26,14 +29,14 @@
               <a class="nav-link" href="index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+              <a class="nav-link" href="nosotros.html">Quiénes Somos</a>
             </li>
             <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Servicios
          </a>
             <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="que-es-una-vacuna.html">¿Qué es una Vacuna?</a></li>
+                <li><a class="dropdown-item" href="que-es-una-vacuna.html">¿Qué es una Vacuna?</a></li>
                 <li><a class="dropdown-item" href="lo-que-buscamos.html">¿Qué es lo que Buscamos?</a></li>
             <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="ponte-en-contacto.html">Ponte en Contacto</a></li>
@@ -48,25 +51,32 @@
     </div>
     </nav>
     <br>
-    <div id="contenido">
-        <h4>¿Quiénes sómos?</h4>
-        <img src="img/creando_vacunas.jpeg" alt="imagen">
-        <p>
-           Somos una organisación dedicada a apoyar la investigación y creación de las vacunas.
-        </p>
-        <br>
-        <h4>¿Qué hacemos?</h4>
-        <p>
-            Apoyamos con los recursos necesarios a los laboratorios que se dedican a la investigación, cientificos comprometidos con su pasion por la ciencia, y esto sera beneficio para la humanidad. Quieres ser parte de esto? y asi poder ayudar a salvar millones de vidas. <a class="btn btn-outline-success" href="donaciones.html" role="button">¡Apoyar ahora!</a></a>
-        </p>
-    </div>
-     <div id="final">
+        <div id="contenido-largo">
+            <h1 style="color: #699283 !important; font-size: 2.5rem !important; display: block !important;">¡Apoyar ahora!</h1>
+            <br>
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Correo:</label>
+                <input type="email" class="form-control" id="exampleInputEmail1">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputName1" class="form-label">Nombre:</label>
+                <input type="text" class="form-control">
+              </div>
+                <div class="mb-3">
+                    <label for="donacion" class="form-label">Donación:</label>
+                    <input type="number" class="form-control" min="10" max="700000">
+                </div>
+              <button type="submit" class="btn btn-outline-success">¡Enviar Donacion!</button>
+            </form>        
+        </div>
+        
+        <div id="final">
             <h5>2026 Lara Grettel Hurtado Anda</h5>
             <a href="https://www.linkedin.com/in/lara-grettel-undefined-a4aa3135b/"><img src="img/linkedin_tra.png" class="logo-final"alt=""></a>
             <a href="https://www.instagram.com/laragrettel_/"><img src="img/instagram_tra.png" class="logo-final" alt=""></a>
             <a href="https://www.facebook.com/mimessis?locale=es_LA"><img src="img/facebook_tra.png" class="logo-final" alt=""></a>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
